@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="abc">
+        <div id="tiempo">
+          <div class="reloj" id="Horas">00</div>
+          <div class="reloj" id="Minutos">00</div>
+          <div class="reloj" id="Segundos">:00</div>
+          <div class="reloj" id="Centesimas">:00</div>
+        </div>
+        <div id="botones">
+            <input type="button" class="boton" id="inicio" value="Iniciar &#9658;" onclick="inicio();">
+            <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+            <input type="button" class="boton" id="continuar" value="Continuar &#8634;" onclick="inicio();" disabled>
+            <input type="button" class="boton" id="reinicio" value="Reiniciar &#8635;" onclick="reinicio();" disabled>
+        </div>
+        <a href="reloj.html">Modo Reloj</a>
+        <audio src="SD_ALERT_27.mp3" id="sonido"></audio>
+        <input type="button" class="boton" onclick="sonido.play()" name="" value="Avisar" id="aviso">
+        <input type="button" class="boton" id="maximizar" value="⤡" onclick="launchFullScreen(document.documentElement);"/>
+      </div>
+    </div>
+  </body>
+</html>
