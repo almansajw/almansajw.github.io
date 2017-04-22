@@ -40,8 +40,8 @@ div.abc {
   background: #3a5684;
   border: none;
   color: white;
-  padding: 0.5em 1.3em;
   outline: none;
+  padding: 0.5em 1.3em;
 }
 
 .boton:disabled {
@@ -50,7 +50,7 @@ div.abc {
 
 .reloj {
 	display: inline-block;
-	font-size: 14em;
+	font-size: 20em;
 }
 
 #maximizar {
@@ -60,13 +60,14 @@ div.abc {
 }
 
 #aviso {
-  right: 0;
-  position: absolute;
   bottom: 0;
+  position: absolute;
+  right: 0;
 }
 
 #reloj {
   display: block;
+  letter-spacing: -0.10em;
 }
 
 #Horas, #Centesimas {
