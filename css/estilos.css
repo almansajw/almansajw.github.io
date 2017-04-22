@@ -50,7 +50,7 @@ div.abc {
 
 .reloj {
 	display: inline-block;
-	font-size: 20em;
+	font-size: 24vw;
 }
 
 #maximizar {
@@ -67,7 +67,7 @@ div.abc {
 
 #reloj {
   display: block;
-  font-size: 19em;
+  font-size: 24vw;
   letter-spacing: -0.10em;
 }
 
