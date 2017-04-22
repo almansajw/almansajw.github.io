@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #fff;
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 16px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+div.abc {
+  display: table-cell;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.boton {
+  background: #3a5684;
+  border: none;
+  color: white;
+  padding: 0.5em 1.3em;
+  outline: none;
+}
+
+.boton:disabled {
+  display: none;
+}
+
+.reloj {
+	display: inline-block;
+	font-size: 14em;
+}
+
+#maximizar {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+#aviso {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+#reloj {
+  display: block;
+}
+
+#Horas, #Centesimas {
+  display: none;
+}
+
+#botones {
+  display: block;
+  margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+.reloj {
+  font-size: 8em;
+}
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reloj</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="abc">
+        <div id="reloj" class="reloj">00:00:00</div>
+        <a href="index.html">Modo Cronómetro</a>
+        <audio src="SD_ALERT_27.mp3" id="sonido"></audio>
+        <input type="button" class="boton" onclick="sonido.play()" name="" value="Avisar" id="aviso">
+        <input type="button" class="boton" id="maximizar" value="⤡" onclick="launchFullScreen(document.documentElement);"/>
+      </div>
+    </div>
+
+  </body>
+</html>
